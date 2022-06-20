@@ -1,0 +1,26 @@
+# IT 2819 – Python Programming
+# Lesson -2 :Flow charts, Boolean values, Comparison operators, and Boolean operators.
+# Lab-2 written by Mahmut Fesli in June 20, 2022.
+
+print ('Let us find the biggest number that you will enter.\n')
+
+# We are asking user to enter three numbers.
+print ('Please enter Number-1:' )
+N1 = input ()
+print ('Please enter Number-2:' )
+N2 = input ()
+print ('Please enter Number-3:' )
+N3 = input ()
+
+# We are comparing these numbers to find out the biggest one.
+GN1 = N1 >= N2 and N1 >= N3
+GN2 = N2 >= N1 and N2 >= N3
+GN3 = N3 >= N1 and N3 >= N2
+
+# We wre displaying the biggest number.
+print ('\nIs ' + str(N1) + ' the biggest number ? :' + str(GN1))
+print (  'Is ' + str(N2) + ' the biggest number ? :' + str(GN2))
+print (  'Is ' + str(N3) + ' the biggest number ? :' + str(GN3))
+
+# We are pausing the program to see the otucome in the command screen.
+pause = input ()
